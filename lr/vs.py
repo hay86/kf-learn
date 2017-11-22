@@ -7,7 +7,7 @@ from src import LogisticRegression as MyLogisticRegression
 from src import LinearRegression as MyLinearRegression
 
 if len(sys.argv) < 2:
-	print 'Usage: python main.py regression|classification'
+	print 'Usage: python vs.py regression|classification'
 	sys.exit()
 
 if sys.argv[1] == 'regression':
